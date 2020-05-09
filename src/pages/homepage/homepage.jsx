@@ -1,10 +1,11 @@
 import React from 'react'
-
+import Header from '../../component/header/header.component'
+import './homepage.styles.scss'
 
 
 const HomePage = () => (
     <div>
-        Home Page
+        <Header/>
     </div>
 )
 
