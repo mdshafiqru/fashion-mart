@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from '../../component/header/header.component'
 import './homepage.styles.scss'
+import Slider from '../../component/slider/slider.component'
 
 
 const HomePage = () => (
     <div>
-        <Header/>
+        <Slider />
     </div>
 )
 
