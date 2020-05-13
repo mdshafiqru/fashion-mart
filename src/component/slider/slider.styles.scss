@@ -1,7 +1,8 @@
 .slider-container{
     margin: 0;
     width: 100%;
-    height: 800px;
+    
+    position: relative;
     
 
 
@@ -9,10 +10,15 @@
         width: 100%;
         
         
+        
     }
-    .text{
+    .text-container{
+        position: absolute;
+        top: 30%;
+
         & h1{
             text-transform: uppercase;
+            
         }
     }
 

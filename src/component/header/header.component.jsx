@@ -3,10 +3,10 @@ import './header.styles.scss'
 import HeaderTop from '../header-top/header-top.component'
 import HeaderBottom from '../header-bottom/header-bottom.component'
 
-const Header = () => (
+const Header = ({ currentUser }) => (
     <div className='header'>
         <HeaderTop />
-        <HeaderBottom />
+        <HeaderBottom currentUser={currentUser} />
     </div>
     
 )

@@ -41,6 +41,11 @@ a{
                 padding: 15px;
                 font-weight: bold;
                 text-transform: uppercase;
+                cursor: pointer;
+
+                &:hover{
+                    color:#3cb878; 
+                }
 
                 
 
