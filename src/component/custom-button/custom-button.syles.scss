@@ -13,19 +13,21 @@
     font-weight: bolder;
     border: none;
     cursor: pointer;
-    border: 1px solid #0e5f35;
+    
     transition: 300ms all ease;
     border-radius: 5px;
   
     &:hover {
       background-color: #219b5c;
       color: white;
-      border: 1px solid #0e5f35;
+      
     }
 
     &.google-sign-in{
       background-color: #4285f4;
       color: white;
+      border: none;
+      transition: 300ms all ease;
 
       &:hover{
         background-color: #357ae8;
